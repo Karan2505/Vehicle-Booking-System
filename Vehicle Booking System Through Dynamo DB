@@ -1,0 +1,92 @@
+CREATE TABLE Admin (
+    id int,
+    firstname varchar(100),
+    lastname varchar(100),
+  	username varchar(100),
+  	email varchar(100),
+    role varchar(100)
+);
+INSERT INTO Admin
+VALUES (1, 'raja', 'mohan', 'rajamohan', 'raja@', 'admin1');
+
+INSERT INTO Admin
+VALUES (2, 'hema', 'shulka', 'hemashulka', 'hema@', 'admin2');
+
+CREATE TABLE Inquiry (
+    id int,
+    name varchar(100),
+    email varchar(100),
+    message varchar(100)
+);
+
+INSERT INTO Inquiry
+VALUES (1, 'Ram', 'ram@', 'check car details');
+
+CREATE TABLE USER (
+    id int,
+    name varchar(100),
+    address varchar(100),
+  	contact varchar(100),
+  	email varchar(100),
+    age varchar(100),
+ 	gender varchar(100),
+  detail varchar(100)
+);
+
+INSERT INTO USER
+VALUES (2, 'ramtu', 'chennai', '9425132545', 'rmto@','18','male','details of color');
+
+CREATE TABLE sale_cars (
+    id int,
+    salesname varchar(100),
+    carprice varchar(100),
+  	carspecialisation varchar(100),
+    saler contact varchar(100)
+);
+
+INSERT INTO sale_cars
+VALUES (1, 'tanga','5000000' , 'engine','756456484');
+INSERT INTO sale_cars
+VALUES (2, 'vamba','7000000', 'color','4782498242');
+
+
+CREATE TABLE cars (
+    id int,
+    car varchar(100),
+    carmodel varchar(100),
+  	mileage varchar(100),
+    passenger varchar(100),
+    rent varchar(100)
+);
+
+INSERT INTO cars
+VALUES (1, 'punch','latest' , '25','4','45000');
+INSERT INTO cars
+VALUES (2, 'celerio','latest', '22','4','50000');
+
+CREATE TABLE carbooking (
+    id int,
+    carid int,
+    name varchar(100),
+  	contact varchar(100),
+    email varchar(100),
+    model varchar(100)
+);
+
+INSERT INTO carbooking
+VALUES (1, 1,'toto' , '7894561235','toto@','latest');
+INSERT INTO carbooking
+VALUES (2 ,2,'morto','7564893215', 'morto@','latest');
+
+CREATE TABLE trippedhistory (
+    id int,
+    firstname varchar(100),
+    lastname varchar(100),
+    role varchar(100)
+);
+
+INSERT INTO cars
+VALUES (1, 'punch','latest' , '25','4','45000');
+INSERT INTO cars
+VALUES (2, 'celerio','latest', '22','4','50000');
+

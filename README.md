@@ -1,4 +1,4 @@
-# Car Rental System Database Schema
+# Vehicle Booking System Database Schema
 
 ## Overview
 This repository contains the SQL schema and initial data for a **Car Rental System**. The database consists of multiple tables, each representing a different entity, such as users, admins, cars, bookings, and sales. This README provides a structured breakdown of the database schema, including the purpose and structure of each table.
